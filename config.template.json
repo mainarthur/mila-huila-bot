@@ -1,0 +1,22 @@
+{
+  "TELEGRAM_BOT_TOKEN": "",
+  "BOT_NAME": "milahuilabot",
+  "DEFAULT_LOCALE": "en",
+  "RATE_LIMITER": {
+    "message": 1
+  },
+  "ALLOWED_UPDATES": ["message"],
+  "BULL_OPTIONS": {
+    "defaultJobOptions": {
+      "removeOnComplete": true,
+      "attempts": 2
+    },
+    "limiter": {
+      "duration": 1000,
+      "max": 30
+    }
+  },
+  "PEREHOCHESH": "CAACAgIAAxkBAAMFYOjIvRCIBarrE1WiUsHBHcEyQlAAArwAA83ASBgiyNGr90Zj6yAE",
+  "PIZDA": "CAACAgIAAxkBAAMEYOjIuY4ewhTsOBfq65PuxhCZjWwAAiUKAALQPdIIeGMroVABP1UgBA",
+  "LECHIT": "CAACAgIAAxkBAAMIYOjJgTDFR1omdrgiFA-hnhOssMgAAhcAA95SFxiRaGd3SYG86iAE"
+}
